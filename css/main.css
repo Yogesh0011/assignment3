@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	margin: auto;
+}
+li{
+	border: 2px solid black;
+	border-radius: 10px;
+	background: yellow;
+	margin: 15px;
+	padding: 5px;
+}
+li:nth-child(even){
+	border: 2px solid black;
+	border-radius: 10px;
+	background: red;
+	margin: 15px;
+	padding: 5px;
+}
